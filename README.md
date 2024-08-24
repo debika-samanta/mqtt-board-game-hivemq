@@ -52,16 +52,15 @@ For a game with 2 players where Player 1 wins:
 - Python 3.8 or higher
 - Paho MQTT Python client library
 - HiveMQ broker (either local or cloud)
-  
-> sudo apt update
-> sudo apt install python3 python3-pip
-> pip3 install paho-mqtt
-> wget https://www.hivemq.com/releases/hivemq-4.5.0.zip
-> unzip hivemq-4.5.0.zip
-> cd hivemq-4.5.0/bin
-> ./run.sh
 
-
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+pip3 install paho-mqtt
+wget https://www.hivemq.com/releases/hivemq-4.5.0.zip
+unzip hivemq-4.5.0.zip
+cd hivemq-4.5.0/bin
+./run.sh
 
 
 ## Installation
